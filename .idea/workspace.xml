@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602958b0-f3f7-4e4b-8df8-928800354fc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/2_for.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/2_while.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +24,7 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608572056989</updated>
-      <workItem from="1608572058114" duration="4644000" />
+      <workItem from="1608572058114" duration="7322000" />
     </task>
     <servers />
   </component>
