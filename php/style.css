@@ -1,0 +1,36 @@
+body, *, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+.task {
+    margin: 10px;
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+
+.task__title {
+    font-size: 24px;
+}
+
+.task__title:after{
+    display: block;
+    content: " ";
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    opacity: 0.5;
+    margin-bottom: 10px;
+
+}
+
+.task__body {
+    font-size: 16px;
+}
