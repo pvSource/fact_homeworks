@@ -41,6 +41,33 @@
 </section>
 
 <section class="task">
+    <h2 class="task__title">Задание 1 (без формы)</h2>
+    <div class="task__body">
+        <?
+        function first_new($n)
+        {
+            $n = (integer)$n;
+            if($n <= 0) {
+                echo "Попробуйте другое значение";
+                return;
+            }
+            $arr_new = [];
+            for ($i = 0; $i < $n; $i++) {
+                $arr_new[$i] = mt_rand();
+                if (($i % 2) == 1) { //так как массив начинается с нуля!
+                    echo "<b>$arr_new[$i]<br></b>";
+                } else {
+                    echo "$arr_new[$i]<br>";
+                }
+            }
+        }
+        echo "<br>";
+        first_new(7); //Число n
+        ?>
+    </div>
+</section>
+
+<section class="task">
     <h2 class="task__title">Задание 2</h2>
     <div class="task__body">
         <?
