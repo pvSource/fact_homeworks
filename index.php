@@ -14,6 +14,7 @@
     <div class="task__body">
         <form class="task__form form" action="index.php" method="post">
             <p>Введите число n: <input class = "form__input" type="tel" name="n_value" /></p>
+            <input type="submit" value="Отправить" />
         </form>
         <?
         function first($n)
@@ -33,6 +34,7 @@
                 }
             }
         }
+        echo "<br>";
         first($_POST['n_value']);
         ?>
     </div>
