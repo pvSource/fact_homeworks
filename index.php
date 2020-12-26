@@ -137,13 +137,13 @@
                 }
                 ?>
             </div>
-            <article class="task__warning">Месяц и день может не содержать допонительные нули, например Февраль может быть указан так: "02", а может и так: "2"</article>
+            <article class="task__warning">Месяц и день может не содержать дополнительные нули, например Февраль может быть указан так: "02", а может и так: "2"</article>
         </div>
     </section>
 </main>
 <footer class="footer">
     <div class="footer__container">
-        <a class="footer__link" href=https://github.com/pvSource/fact_homeworks">GitHub</a>
+        <a class="footer__link" href="https://github.com/pvSource/fact_homeworks">GitHub</a>
     </div>
 </footer>
 
