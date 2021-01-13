@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--    <link rel="stylesheet" href="./style.css" type="text/css">-->
+    <link rel="stylesheet" href="./style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -36,12 +36,35 @@
             alert('конец функции');
             }
     </script>
-    <title>Fact.School. Homework. 25 Dec</title>
+    <title>Fact.School. Homework. 11 Jan</title>
 </head>
 <body>
 
 <main class="main">
-    <h1 class="main__title">Домашнее задание от  25 декабря 2020г.</h1>
+    <h1 class="main__title">Домашнее задание от 11 января 2020г.</h1>
+
+    <section class="task__main task">
+        <div class="task__container">
+            <h2 class="task__title"> Задание с урока</h2>
+            <article class="task__info">
+                <p>
+                    Создайте форму генерации ссылки с параметром:
+                    Создайте форму и в ней добавьте поле со списком выбора – Лаб1, Лаб2, Лаб3, Лаб4
+                    При нажатии на кнопку должно быть сформирована ссылка следующего вида: phpcourse.php?l=3 , где 3 – это номер выбранной лабораторной работы.
+
+                </p>
+            </article>
+            <div class="task__body">
+                <form class="task__form form" action="phpcourse.php" method="get">
+                    <p>Выберите лабараторную:</p>
+                    <p><input type="radio" name="l" value="1">1</p>
+                    <p><input type="radio" name="l" value="2">2</p>
+                    <p><input type="radio" name="l" value="3">3</p>
+                    <p><input type="submit"></p>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <section class="task__main task">
         <div class="task__container">
