@@ -1,0 +1,129 @@
+body, *, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.96), rgba(9, 15, 31, 0.97), rgba(19, 30, 61, 0.98), rgba(28, 46, 92, 0.98), rgba(38, 61, 122, 0.99), rgb(47, 76, 153), rgb(39, 63, 128), rgb(31, 51, 102), rgb(24, 38, 77), rgb(16, 25, 51), rgb(8, 13, 26), rgb(0, 0, 0));
+    font-family: 'Nunito', sans-serif;
+    height: 100%;
+}
+
+.main__title {
+    text-align: center;
+    font-size: 32px;
+    color: ghostwhite;
+    text-transform: uppercase;
+    text-shadow: -2px 1px 2px black, 0 0 1em black;
+}
+
+.task__container {
+    margin: 10px;
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    opacity: 0.6;
+}
+
+.task__container:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.task__title {
+    font-size: 24px;
+}
+
+.task__title:after{
+    display: block;
+    content: " ";
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    opacity: 0.5;
+    margin-bottom: 10px;
+
+}
+
+.task__body {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
+    background-color: black;
+    color: chartreuse;
+    opacity: 0.9;
+    padding: 5px 10px;
+}
+
+.task__group {
+    margin-top: 10px;
+}
+
+.task__info {
+    color: black;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.task__warning {
+    margin: 5px 0;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #B22222;
+}
+
+.task__warning:before {
+    content: ">>>";
+    color: red;
+    font-weight: bold;
+}
+
+input {
+    background-color: rgba(0,0,0,0);
+    color: chartreuse;
+    border: ghostwhite 1px solid;
+    border-radius: 2px;
+    padding: 2px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+form {
+    padding-bottom: 10px;
+}
+
+ul li {
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: ghostwhite;
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+}
+.footer__container {
+    padding: 10px;
+}
+
+.footer__link {
+    font-size: 18px;
+    display: block;
+    color: ghostwhite;
+    text-decoration: none;
+    text-align: right;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.footer__link:hover {
+    transform: rotate(20deg);
+    color: gold;
+    font-size: 300px;
+    transition: 90s;
+}
