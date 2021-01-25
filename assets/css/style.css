@@ -1,0 +1,56 @@
+html, body, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background: rgb(131,58,180);
+    background: linear-gradient(-90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-family: 'Amatic SC', cursive;
+    color: white;
+}
+
+.header {
+    font-size: 100px;
+    background-color: #0b011c;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__logo_pic {
+    width: 200px;
+}
+
+.main {
+    font-size: 48px;
+}
+
+.main__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px;
+
+}
+
+.main__input {
+    width: 500px;
+    height: 60px;
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+
+}
+
+.main__input_submit {
+    width: 600px;
+}
